@@ -94,7 +94,4 @@ This pipeline is built using:
 
 ## Status
 
-✅ Project is complete and tested end-to-end.  
-✅ Redshift is successfully receiving merged and clean data.  
-✅ Ready for visualization or reporting.
-
+✅ Project is complete and tested end-to-end. 
