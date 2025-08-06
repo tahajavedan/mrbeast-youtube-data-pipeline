@@ -38,6 +38,8 @@ After merging, the final dataset is saved as a single CSV file named `MrBeast.cs
 
 Then, the Lambda function connects to Amazon Redshift using `boto3`'s `redshift-data` client. It first truncates the `youtube.mrbeast` table to ensure no duplicate data, and then runs a `COPY` command to load the new data from the `Transformed/MrBeast.csv` file directly into Redshift.
 
+
+![S3](images/Transformed_files.JPG)
 ---
 
 ## 4. Redshift Table Design
@@ -45,6 +47,8 @@ Then, the Lambda function connects to Amazon Redshift using `boto3`'s `redshift-
 The final table where all transformed data lands is called `youtube.mrbeast`. It contains a combination of channel info and video statistics. The data is now ready for analysis, reporting, or further ETL.
 
 This process uses Redshift's built-in `COPY` command and an IAM Role to securely read the file from S3.
+
+![S3](images/redshift.JPG)
 
 ---
 
@@ -57,7 +61,7 @@ It includes key metrics such as:
 - Most viewed and liked videos  
 - Like-to-view ratios  
 - Number of videos published over time  
-- Average engagement per video
+
 
 These visuals help monitor trends and identify high-performing content.  
 **Screenshots of the Power BI dashboard can be seen below.**
@@ -83,17 +87,9 @@ This pipeline is built using:
 - AWS S3 for file storage  
 - AWS Lambda for data transformation  
 - Amazon Redshift as the data warehouse  
-- Power BI for final visualization (external step)
+- Power BI for final visualization 
 
----
 
-## Notes
-
-- All credentials like API keys and IAM roles should be stored securely and are not included in this repository.  
-- The script uses `try/except` blocks to handle API errors or S3 upload issues gracefully.  
-- The flow is designed to be reusable and modular.
-
----
 
 ## Status
 
