@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/jimmy.jpg" alt="S3" width="600"/>
+  <img src="images/jimmy.jpg" alt="S3" width="200"/>
 </p>
 
 # MrBeast YouTube Data Pipeline
