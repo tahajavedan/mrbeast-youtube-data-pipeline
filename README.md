@@ -55,7 +55,7 @@ This process uses Redshift's built-in `COPY` command and an IAM Role to securely
 
 ## 5. Power BI Dashboard
 
-After loading the cleaned dataset into Amazon Redshift, a Power BI dashboard was created by connecting directly to the `youtube.mrbeast` table using the PostgreSQL connector. The dashboard helps visualize the performance and growth of the MrBeast YouTube channel over time.
+After loading the cleaned dataset into Amazon Redshift, a Power BI dashboard was created by connecting directly to the `youtube.mrbeast` table using the Redshift connector. The dashboard helps visualize the performance and growth of the MrBeast YouTube channel over time.
 
 It includes key metrics such as:
 - Total views and subscriber count  
