@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="images/jimmy.JPG" alt="S3" width="600"/>
+</p>
 
 # MrBeast YouTube Data Pipeline
 
