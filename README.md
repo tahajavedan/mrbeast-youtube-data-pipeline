@@ -25,9 +25,9 @@ After extracting and preparing the data, the same Python script uploads the two 
 
 We use the `boto3` library to connect with AWS and the `StringIO()` class to upload the data directly from memory without saving local files.
 
-![S3](images/s3_folders.png)
+![S3](images/s3_folders.JPG)
 
-![S3](images/Staging_files.png)
+![S3](images/Staging_files.JPG)
 ---
 
 ## 3. AWS Lambda: Data Transformation and Redshift Load
