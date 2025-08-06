@@ -14,6 +14,7 @@ We start by using the YouTube Data API v3. A Python script fetches data about th
 
 All this data is parsed from JSON format using custom functions. The `extract_channel()` function handles the channel-level data, and `extract_video_stats()` processes video-level stats. The results are stored in two separate pandas DataFrames: one for the channel and one for videos.
 
+![S3](images/python.JPG)
 ---
 
 ## 2. Uploading CSVs to S3
