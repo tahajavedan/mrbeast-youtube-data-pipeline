@@ -1,4 +1,6 @@
-![S3](images/jimmy.JPG)
+<p align="center">
+  <img src="images/jimmy.jpg" alt="S3" width="600"/>
+</p>
 
 # MrBeast YouTube Data Pipeline
 
