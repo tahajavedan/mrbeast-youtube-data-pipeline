@@ -1,11 +1,8 @@
-<p align="center">
-  <img src="images/jimmy.jpg" alt="S3" width="200"/>
-</p>
 
 
-<p align="center">
-# Data Flow Diagram
-  </p>
+
+<h1 align="center">Data Flow Diagram</h1>
+
 
 <p align="center">
   <img src="images/Data_Flow.JPG" alt="S3" width="1000"/>
