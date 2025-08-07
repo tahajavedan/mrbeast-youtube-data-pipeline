@@ -10,6 +10,7 @@
 </p>
 <p align="center"><i>This diagram shows the complete data flow from YouTube API to Power BI using AWS services.</i></p>
 
+
 # MrBeast YouTube Data Pipeline
 
 This project builds a full data pipeline using Python and AWS services to fetch public YouTube data from the MrBeast channel and load it into a Redshift table for further analysis. The goal is to show how API data can be transformed and loaded into a data warehouse using clean and modular steps.
