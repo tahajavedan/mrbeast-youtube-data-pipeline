@@ -4,9 +4,9 @@
 
 
 
-#Data Flow
+# Data Flow
 <p align="center">
-  <img src="images/Data_Flow.jpg" alt="S3" width="200"/>
+  <img src="images/Data_Flow.JPG" alt="S3" width="200"/>
 </p>
 
 # MrBeast YouTube Data Pipeline
