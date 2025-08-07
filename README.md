@@ -55,7 +55,7 @@ Then, the Lambda function connects to Amazon Redshift using `boto3`'s `redshift-
 
 ## 4. Redshift Table Design
 
-The final table where all transformed data lands is called `youtube.mrbeast`. It contains a combination of channel info and video statistics. The data is now ready for analysis, reporting, or further ETL.
+The final table where all transformed data lands is called `youtube.mrbeast`. It contains a combination of channel info and video statistics. The data is now ready for analysis.
 
 This process uses Redshift's built-in `COPY` command and an IAM Role to securely read the file from S3.
 
