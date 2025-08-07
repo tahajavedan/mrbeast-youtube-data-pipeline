@@ -3,8 +3,10 @@
 </p>
 
 
+<p align="center">
+# Data Flow Diagram
+  </p>
 
-# Data Flow
 <p align="center">
   <img src="images/Data_Flow.JPG" alt="S3" width="1000"/>
 </p>
