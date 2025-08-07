@@ -6,7 +6,9 @@
 
 <p align="center">
   <img src="images/Data_Flow.JPG" alt="S3" width="1000"/>
+  
 </p>
+<p align="center"><i>This diagram shows the complete data flow from YouTube API to Power BI using AWS services.</i></p>
 
 # MrBeast YouTube Data Pipeline
 
