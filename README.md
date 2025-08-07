@@ -2,6 +2,13 @@
   <img src="images/jimmy.jpg" alt="S3" width="200"/>
 </p>
 
+
+
+#Data Flow
+<p align="center">
+  <img src="images/Data_Flow.jpg" alt="S3" width="200"/>
+</p>
+
 # MrBeast YouTube Data Pipeline
 
 This project builds a full data pipeline using Python and AWS services to fetch public YouTube data from the MrBeast channel and load it into a Redshift table for further analysis. The goal is to show how API data can be transformed and loaded into a data warehouse using clean and modular steps.
